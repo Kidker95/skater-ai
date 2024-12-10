@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/skater-ai/static/css/main.34f1902e.css",
+    "main.js": "/skater-ai/static/js/main.b2758b80.js",
+    "static/js/453.7300c343.chunk.js": "/skater-ai/static/js/453.7300c343.chunk.js",
+    "static/media/s8Spinner.gif": "/skater-ai/static/media/s8Spinner.6688868eff04f6ee9ba0.gif",
+    "index.html": "/skater-ai/index.html",
+    "main.34f1902e.css.map": "/skater-ai/static/css/main.34f1902e.css.map",
+    "main.b2758b80.js.map": "/skater-ai/static/js/main.b2758b80.js.map",
+    "453.7300c343.chunk.js.map": "/skater-ai/static/js/453.7300c343.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34f1902e.css",
+    "static/js/main.b2758b80.js"
+  ]
+}
