@@ -1,46 +1,124 @@
-# Getting Started with Create React App
+# **Skater AI**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Skater AI is a React-based application designed for skateboarding enthusiasts to enhance their experience with AI-driven features. This project showcases advanced React concepts, including state management, animations, and user interactivity.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## **Features**
+- 🛹 **Interactive Skateboarding Simulator**: Experience realistic skateboarding animations and simulations.
+- 🤖 **AI Assistance**: Get AI-driven tips for tricks and skateboarding techniques.
+- 🎨 **Customizable Themes**: Personalize the app's appearance to suit your style.
+- 🌐 **Responsive Design**: Fully functional on mobile and desktop devices.
+- 💾 **Modern Web Development Practices**: Built with React and follows best coding practices.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## **Installation**
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Follow these steps to get started:
 
-### `npm test`
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Kidker95/skater-ai.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd skater-ai
+   ```
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## **Usage**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### **Development Mode**
+1. Start the development server:
+   ```bash
+   npm start
+   ```
+2. Open your browser and go to http://localhost:3000 to explore the app.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### **Production Mode**
+1. Build the project for production:
+   ```bash
+   npm run build
+   ```
+2. Serve the production build locally or deploy it using the instructions below.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## **Deployment**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+This project is deployed using GitHub Pages. To deploy the app:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Install \`gh-pages\` as a development dependency:
+   ```bash
+   npm install gh-pages --save-dev
+   ```
+2. Add the following scripts to your \`package.json\`:
+   ```json
+   "scripts": {
+     "predeploy": "npm run build",
+     "deploy": "gh-pages -d build"
+   }
+   ```
+3. Deploy the app:
+   ```bash
+   npm run deploy
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Your app will be available at:
+https://kidker95.github.io/skater-ai
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
 
-## Learn More
+## **Technologies Used**
+- **Frontend**: React, HTML5, CSS3
+- **State Management**: React Redux
+- **Form Handling**: React Hook Form
+- **Notifications**: Notyf
+- **HTTP Requests**: Axios
+- **Token Management**: JWT Decode
+- **Deployment**: GitHub Pages
+- **Package Management**: npm
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## **Contributing**
+
+Contributions are welcome! Feel free to fork the repository and submit a pull request with your changes.
+
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Make your changes and commit them:
+   ```bash
+   git commit -m "Add feature description"
+   ```
+4. Push your branch:
+   ```bash
+   git push origin feature-name
+   ```
+5. Open a pull request on GitHub.
+
+---
+
+## **License**
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## **Contact**
+
+For questions or suggestions, feel free to contact me:
+
+- GitHub: [Kidker95](https://github.com/Kidker95)
+- Email: [your-email@example.com](mailto:irmoomri@example.com)
+
+---
